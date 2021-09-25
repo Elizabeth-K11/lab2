@@ -1,0 +1,546 @@
+
+.html, body {
+margin: 0;
+padding: 0;
+}
+
+.intro{
+width: 100%;
+height: 700px;  
+background:
+url("../img/11.jpg") center no-repeat;
+-webkit-background-size:cover ;
+background-size:cover;
+display: flex;
+flex-direction: column;
+justify-content: end;
+align-items: center;
+}
+
+.main_title{
+text-align: center;
+font-size: 60px;
+font-family: lobster;
+color: oldlace;
+text-shadow:3px 3px 6px rgb(0, 0, 0);
+margin-bottom: 0;
+}
+
+.subtitle{
+text-align: center;
+font-size: 40px;
+font-family:Comfortaa;
+color: oldlace;
+text-shadow:3px 3px 6px rgb(0, 0, 0);
+margin-bottom: 10%;
+}
+
+
+
+
+.statistics{
+background: rgba(0, 0, 0, 0.323);
+width: 1500px;
+}
+
+@media (max-width:1700px){
+    .statistics {width: 1000px;}   
+}
+
+@media (max-width:1000px){
+    .statistics {width: 800px;}   
+}
+
+.stat{
+display: flex;
+align-items: center;
+justify-content: space-around;
+align-items: flex-end;
+}
+
+.stat_item{
+flex: 1 1 0;
+padding: 70px 25px;
+border-left: 3px solid bisque;
+text-align: center;
+color: blanchedalmond;
+}
+
+.stat_item:last-child{
+border-right:3px solid bisque;
+}
+
+.stat_count{
+margin-bottom: 10px;
+font-size: 70px;
+font-weight: 700;
+line-height: 1;
+text-align: center;
+font-family:Comfortaa;
+color: oldlace;
+}
+
+.stat_text{
+font-size: 20px;
+text-transform: uppercase;
+font-family:Comfortaa;
+color: oldlace;
+}
+
+.container{
+max-width:1250px;
+margin: 0 auto;
+}
+
+.second_part{
+width: 100%;
+height: 400px;  
+display: flex;
+margin-top: 5%;
+justify-content: center;
+}
+
+.second_part_maintext{
+width: 50%;
+}
+
+.second_part_title{
+font-size: 40px;
+font-family:lobster ;
+color: rgb(160, 142, 101);
+text-align: center;
+margin: 0;
+}
+    
+.second_part_subtitle{
+font-size: 25px;
+font-family:lobster ;
+color: rgb(0, 0, 0);
+text-align: center;
+margin-top: ;}
+
+
+.second_part_text{
+font-size: 20px;
+font-family:Comfortaa ;
+color: rgb(0, 0, 0);
+text-align: center;   
+margin-left: 0;
+margin-right: 0px
+}
+
+.img_1{
+height: 300px;
+margin-left: 50px;
+}
+
+.third_part{
+display: flex;
+justify-content: center;
+margin-top: 5%;
+}
+
+.third_part_img{
+width:400px;
+height: 250px;
+margin-left: 35px;
+}
+
+@media (max-width:1150px){
+    .third_part_img {width: 300px;
+        height: 200px;}   
+}
+
+@media (max-width:950px){
+    .third_part_img {width: 200px;
+        height: 100px;}   
+}
+
+
+.fourth_part{
+display: flex;
+margin-top: 5%;
+}
+
+.fourth_text{
+width: 50%;
+align-items: center;    
+}
+
+.fourth_part_title{
+font-size: 40px;
+font-family:lobster ;
+color: rgb(160, 142, 101);
+text-align: center;
+margin: 0;
+}
+        
+.fourth_part_subtitle{
+font-size: 25px;
+font-family:lobster ;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+    
+.fourth_part_text{
+font-size: 20px;
+font-family:Comfortaa ;
+color: rgb(0, 0, 0);
+text-align: center;   
+margin-left: 0;
+margin-right: 0px;
+}
+
+.fourth_part_img{
+width: 50%;
+}
+
+.fourth_part_img_1{
+display: flex;    
+}
+
+.img_3{
+width: 250px;
+height: 250px;
+padding-left: 5px;
+padding-top: 5px;}
+
+.fiveth_part{
+display: flex;
+margin-top:5%;   
+}
+
+.img_4{
+    width:400px;
+    height: 300px;
+    margin-left: 35px;     
+}
+
+.img__4{
+    width:400px;
+    height: 300px;
+}
+
+@media (max-width:1150px){
+    .img_4 {width: 300px;
+        height: 200px;}   
+}
+
+@media (max-width:950px){
+    .img_4 {width: 200px;
+        height: 100px;}   
+}
+
+@media (max-width:1150px){
+    .img__4 {width: 300px;
+        height: 200px;}   
+}
+
+@media (max-width:950px){
+    .img__4 {width: 200px;
+        height: 100px;}   
+}
+
+.sixth_part{
+display: flex; 
+margin-top: 5%;   
+}
+
+.sixth_part_title{
+font-size: 40px;
+font-family:lobster ;
+color: rgb(160, 142, 101);
+text-align: center;
+margin: 0;
+}
+            
+.sixth_part_subtitle{
+font-size: 25px;
+font-family:lobster ;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+        
+.sixth_part_text{
+font-size: 20px;
+font-family:Comfortaa ;
+color: rgb(0, 0, 0);
+text-align: center;   
+margin-left: 0;
+margin-right: 0px;
+}
+
+.img_6{
+height: 300px;
+margin-left: 50px;
+}
+
+.img__6{
+height: 300px;
+}
+
+.sixth_part_maintext{
+width: 50%;   
+}
+
+.sixth_part_img{
+display: flex;
+width: 50%; 
+align-items: center;   
+}
+
+.list_title{
+font-size: 40px;
+font-family:lobster ;
+color: rgb(160, 142, 101);
+text-align: center;
+margin: 0;
+}
+
+.main_list{
+display: flex;
+margin-top: 5%;
+}
+
+.list{ 
+display: flex;
+align-items: center;
+width: 80%; 
+}
+
+.ol{
+color: #000;
+font-family:Comfortaa ;
+font-size:30px;
+text-decoration: none;
+line-height: 1.5;
+list-style-position: inside;
+
+}
+
+.ul{
+color: #000;
+font-family:Comfortaa ;
+font-size:30px;
+text-decoration: none;
+line-height: 1.5;
+list-style-position: inside;
+font-weight: bold;
+}
+
+li:hover {
+text-decoration: underline; /* Убираем подчеркивание */
+
+}
+
+.list_img{
+width: 20%;
+justify-content: center;
+}
+
+.img__list{
+height: 400px;   
+}
+
+.table_main{
+width: 100%;
+display: flex;   
+justify-content: center;
+margin-top: 5%;
+}
+
+.table_title{
+font-size: 40px;
+font-family:lobster ;
+color: rgb(160, 142, 101);
+text-align: center;
+margin-bottom: 5%;
+}
+
+.table{
+width: 100%;
+border: 1px solid grey;
+border-collapse: collapse; /* Убираем расстояние между яч. */
+height:250px;
+font-size: 20px;
+font-family:Comfortaa ;
+text-align: center;
+
+}
+
+th {
+border: 1px solid grey; /* границы ячеек тела таблицы */
+background-color: rgba(197, 158, 68, 0.727);
+ }
+
+ td {
+border: 1px solid grey;
+ }
+
+ .form_title{
+font-size: 30px;
+font-family:lobster ;
+color: rgb(160, 142, 101);
+margin-top: 5%;
+}
+
+input[type=text] {
+padding: 10px;
+margin:10px 0;
+border-radius:10px;
+}
+
+.button{
+font-size: 15px;
+font-family:Comfortaa ;
+width: 20%;   
+text-decoration: none; 
+color: #000;
+}
+
+.button:hover{
+background-color: rgba(197, 158, 68, 0.727);
+font-weight: bolder;
+}
+
+.form{
+width: 100%;
+display: flex;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.form_name{
+margin-top: 5%;
+display: flex;
+flex-direction: column;
+width: 25%;
+margin-left: 5%;
+}
+
+.form_button{
+text-align:center ;  
+}
+
+.form_choose{
+width: 35%;
+}
+
+.form_text{
+width: 40%;
+align-items: center;
+}
+     
+label {
+display:block;
+margin-bottom:4px;
+position: relative; /* to contain absolute elements */
+padding-left:30px; /* free space for custom radio button */
+cursor: pointer;
+}
+/* hide default radio button  */
+label input[type=radio] {
+position: absolute; /* prevent taking any space */
+/* cross-browser hidingg */
+width:0; 
+height:0;
+}
+
+/* custom radio button */
+label span {
+position: absolute;
+    
+/* position to the free space in <label> */
+top:0;
+left:0;
+width:20px; 
+height:20px;
+background-color: #ddd;
+border-radius: 50%;
+transition: .3s background-color; /* slight transition */
+}
+
+/* the check icon */
+label span:after {
+content: "";
+position: absolute;
+display: none;
+    
+/* middle */
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+background-color:#fff;
+width:8px;
+height:8px;
+border-radius:50%;
+}
+
+label:hover span{
+background-color: #ccc;
+}
+  
+/**** Here's the trick ***/
+label input:checked ~ span {
+background-color: #e4ba2eee;
+}
+
+label input:checked ~ span:after {
+display:block;
+}
+
+.choose_text{
+font-size: 20px;
+font-family:Comfortaa ;
+color: rgb(0, 0, 0);
+}
+
+.choose_textmain{
+font-size: 20px;
+font-family:Comfortaa ;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+.footer{
+background-color: rgba(197, 158, 68, 0.727);
+}
+                
+.footer__row{
+display: flex;
+height:50px;
+justify-content: center;
+align-items: center;
+}
+                
+.footer__text{
+color: rgb(0, 0, 0);
+font-size: 20px;
+letter-spacing: 0.3px;
+font-family:Comfortaa ;
+}
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
